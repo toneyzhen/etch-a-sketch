@@ -1,0 +1,29 @@
+* 
+{
+  background-color: white;
+}
+
+
+
+.grid_cell 
+{
+    border: 1px solid gray;
+    min-width: 22px;
+    min-height: 22px;
+    display: inline-block;
+  }
+
+
+
+.grid_container 
+{
+    margin-top: 3em;
+    text-align: center;
+}
+
+
+
+.grid_row 
+{ 
+  display: flex; /* required to remove the space in between the rows. can also set max-height or line-height to ## px */
+}
