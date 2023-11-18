@@ -12,13 +12,20 @@
 <body>
     <h1 class="title">Etch-a-Sketch</h1>
 
-    <label for="gSize">Enter Grid Size (Max 50):</label><br>
-    <input type="text" id="gSize"><br>
-    <button id="gridSizeBtn">Submit</button>
+    <div class = "content">
+        <div class = "inputSettings">
+            <input id="colorPicker" type="color" value="#FF0000" />
+            <button id="colorButton">Color mode</button>
+            <button id="eraserButton">Eraser</button>
+            <button id="clearButton">Clear</button>
 
-    <div class = "grid_container" id = "gridContainer">
+            <br><br><label for="gSize">Enter Grid Size (Max 40):</label>
+            <input type="text" id="gSize" class = "size_input" value="25">
+            <button id="gridSizeBtn">Submit</button>
+        </div>
+    
+        <div class = "grid_container" id = "gridContainer"></div>
     </div>
-
 
 </body>
 
